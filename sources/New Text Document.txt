@@ -1,0 +1,19 @@
+login background: 
+"https://www.freepik.com/free-photo/coffee-beans-top-view-white-background-space-text_8060692.htm#query=coffee%20background&position=0&from_view=keyword&track=ais&uuid=1de14e9e-3741-4995-a8fc-e1f8515265b6"
+
+2020 css reset:
+"https://github.com/Andy-set-studio/modern-css-reset"
+"https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css"
+'*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}'
+
+Homepage banner:
+"https://i.ytimg.com/vi/DyJTVkRP1vY/maxresdefault.jpg"
+
+Icons (homepage) (javascript):
+"https://fontawesome.com/icons"
+
+'<script src="https://kit.fontawesome.com/ffd6dc4165.js" crossorigin="anonymous"></script>'
+
+User Icon & Admin Icon for Dashboard:
+User: "https://www.flaticon.com/free-icon/barista_9430874"
+Admin: "https://www.flaticon.com/free-icon/manager_3273070?term=manager&page=1&position=18&origin=search&related_id=3273070"

@@ -1,0 +1,105 @@
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+#sidebar_container{
+	display: flex;
+	flex-direction: row;
+}
+div.sidebar{
+	width: 20%;
+	background: #964B00;
+	height: 100vh;
+}
+
+h3.logo{
+	color: #ffffff;
+	font-size: 35px;
+	font-family: Verdana;
+	text-align: center;
+}
+div.sidebar_user{
+	text-align: center;
+	border-top: 3px solid	#fff;
+	border-radius: 0px;
+}
+div.sidebar_user img{
+	width:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:15px ;
+
+}
+div.sidebar_user span{
+	font-size: 40px;
+	font-family: Brush Script MT;
+	color: #ffffff;
+
+}
+div.sidebar_user span:hover{
+	transition: 1s;
+	color: #000000;
+}
+
+ul.lists li{
+	padding: 15px 0px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: Verdana;
+
+}
+ul.lists{
+	margin-top: 20px;
+	list-style: none;
+	padding-inline-start: 0px;
+	text-align: center;
+
+}
+ul.lists li a{
+	text-decoration: none;
+	color: #ffffff;
+	list-style: none;
+
+
+}
+ul.lists li:hover{
+	background: #4D2600;
+	color: #fff;
+	transition: 0.1s;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+ul.lists li.active{
+	background: #4D2600;
+	color: #fff;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+div.cont_top_navigation{
+	background: #ffffff;
+	padding: 13px;
+}
+div.cont_top_navigation a{
+	font-size: 20px;
+	color: #4D2600;
+	text-decoration: none;
+}
+a#logoutB{
+	float: right;
+	font-family: Verdana;
+	font-weight: bold;
+}
+div.main_content{
+	background: #ffffff;
+	height: 100%;
+	min-height: 800px;
+	overflow: hidden; /* Prevents content from overflowing the cell */
+}
+div.content{
+	padding: 50px 10px 0px 10px;
+}
+div.content_container{
+	width: 80%;
+background: #CAC9C9;
+}

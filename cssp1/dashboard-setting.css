@@ -1,0 +1,404 @@
+ /*2020 CSS Reset*/
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+ /*Sidebar Part*/
+#sidebar_container{
+	display: flex;
+	flex-direction: row;
+}
+div.sidebar{
+	width: 20%;
+	background: #964B00;
+	height: 100vh;
+}
+
+h3.logo{
+	color: #ffffff;
+	font-size: 35px;
+	font-family: Verdana;
+	text-align: center;
+}
+div.sidebar_user{
+	text-align: center;
+	border-top: 3px solid	#fff;
+	border-radius: 0px;
+}
+div.sidebar_user img{
+	width:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:15px ;
+
+}
+div.sidebar_user span{
+	font-size: 40px;
+	font-family: Brush Script MT;
+	color: #ffffff;
+
+}
+div.sidebar_user span:hover{
+	transition: 1s;
+	color: #000000;
+}
+
+ul.lists li{
+	padding: 15px 0px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: Verdana;
+
+}
+ul.lists{
+	margin-top: 20px;
+	list-style: none;
+	padding-inline-start: 0px;
+	text-align: center;
+
+}
+ul.lists li a{
+	text-decoration: none;
+	color: #ffffff;
+	list-style: none;
+
+
+}
+ul.lists li:hover{
+	background: #4D2600;
+	color: #fff;
+	transition: 0.1s;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+ul.lists li.active{
+	background: #4D2600;
+	color: #fff;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+ /*Top Navigation Part*/
+
+div.cont_top_navigation{
+	background: #ffffff;
+	padding: 13px;
+}
+div.cont_top_navigation a{
+	font-size: 20px;
+	color: #4D2600;
+	text-decoration: none;
+}
+a#logoutB{
+	float: right;
+	font-family: Verdana;
+	font-weight: bold;
+}
+ /*Content container*/
+div.main_content{
+	background: #ffffff;
+	height: 100%;
+	min-height: 800px;
+}
+div.content{
+	padding: 50px 10px 0px 10px;
+}
+div.content_container{
+	width: 80%;
+background: #CAC9C9;
+}
+ /*Add User Form Part*/
+
+div.adduserform form{
+	width: 418px;
+	margin 0 auto;
+	margin-left: 10%;
+	border: 2px dashed #964B00;
+	padding: 15px;
+	border-radius: 20px;
+}
+div.adduserform input{
+		height: 30px;
+	width: 100%;
+	border: 2px solid #964B00;
+	font-size: 25px;
+	padding: 5px;
+	text-align: center;	
+	 margin-bottom: 2px;
+	 font-family: math;
+}
+div.adduserform select{
+	height: 30px;
+	width: 100%;
+	border: 2px solid #964B00;
+	font-size: 16px;
+	padding: 5px;
+	text-align: center;	
+	  margin-bottom: 2px;
+	font-family: math;
+}
+div.adduserform button{
+font-size: 25px;
+padding: 10px 20px;
+background: #964B00;
+border: none;
+color: #fff;
+font-family: Brush Script MT;
+margin-left: 33%;
+margin-top: 8%;
+border-radius: 150px;
+}
+div.adduserform button:hover{
+	background: #f25f30;
+	color: white;
+	transition: 0.5s;
+	border-radius: 25px;
+}
+div.user-management h2{
+	margin-left: 11.5%;
+    padding: 1%;
+    font-family: math;
+    margin-left: 200px;
+    text-decoration: #964B00 underline;
+}
+ /*Add Shift Form Part*/
+
+div.addshiftform form{
+	width: 418px;
+	margin 0 auto;
+	margin-left: 10%;
+	border: 2px dashed #964B00;
+	padding: 15px;
+	border-radius: 20px;
+}
+div.addshiftform input{
+		height: 30px;
+	width: 100%;
+	border: 2px solid #964B00;
+	font-size: 25px;
+	padding: 5px;
+	 margin-bottom: 2px;
+	 font-family: math;
+}
+div.addshiftform select{
+	height: 30px;
+	width: 100%;
+	border: 2px solid #964B00;
+	font-size: 16px;
+	padding: 5px;
+	text-align: center;	
+	  margin-bottom: 2px;
+	font-family: math;
+}
+div.addshiftform button{
+font-size: 25px;
+padding: 10px 20px;
+background: #964B00;
+border: none;
+color: #fff;
+font-family: Brush Script MT;
+margin-left: 30%;
+margin-top: 8%;
+border-radius: 150px;
+}
+div.addshiftform label{
+text-shadow: #F13 1px 0 10px;
+	color:#964B00 ;
+	font-family: math;
+}
+div.addshiftform button:hover{
+	background: #f25f30;
+	color: white;
+	transition: 0.5s;
+	border-radius: 25px;
+}
+div.shift-management h2{
+margin-left: 219px;
+    padding: 1%;
+    font-family: math;
+    margin-top: 2%;
+ text-decoration: #964B00 underline;
+}
+
+ /*KRUD Content for Users*/
+div.user-management{
+	width: 50%;
+}
+
+div.user-managementpt2{
+	float: right;
+    width: 50%;
+    height: 395px;
+    overflow-x:auto
+}
+ /*Table for Users*/
+div.userstable table, th, td{
+	border: 2px solid #964B00;
+	font-size: 10px;
+	text-align: center;	
+	font-family: math;
+	border-collapse: collapse;
+
+
+}
+td:hover {background-color: coral;}
+th{text-decoration: underline 1px #FFF;
+	color: white;
+	background: #964B00;
+text-shadow: #FC0 1px 0 10px;}
+
+
+div.usertable table{
+	width: 100%;
+}
+div.user-managementpt2 h2{
+    padding: 1%;
+    font-family: math;
+    text-decoration: #964B00 underline;
+}
+a.Refreshbutt1 button{
+    background: #964B00;
+    color: #fff;
+    font-family: math;
+    border: none;
+    margin-top: 1%;
+    border-radius: 150px;
+
+}
+a.Refreshbutt1 button:hover{
+	background: #f25f30;
+	color: white;
+	transition: 0.5s;
+	border-radius: 25px;
+}
+div.user-managementpt2 button{
+	    background: #964B00;
+    color: #fff;
+    border-radius: 150px;
+    border: none;
+}
+div.user-managementpt2 button:hover{
+	background: #f25f30;
+	color: white;
+	transition: 0.5s;
+	border-radius: 25px;
+}
+
+
+ /*KRUD Content for Shifts*/
+ div.shift-management{
+ 	width: 50%;
+ 	margin-top: -400px;
+ }
+  div.shiftmanagementpt2{
+		float: right;
+    width: 50%;
+    height: 405px;
+ }
+
+/*Table for shifts*/
+
+div.schedulestable table, th, td{
+	border: 2px solid #964B00;
+	font-size: 10px;
+	text-align: center;	
+	font-family: math;
+	border-collapse: collapse;
+}
+a.Refreshbutt button{
+    background: #964B00;
+    color: #fff;
+    font-family: math;
+    border: none;
+    margin-top: 1%;
+    border-radius: 150px;
+    float: right;
+    margin-right: 669px;
+}
+div.shiftmanagementpt2 h2{
+    padding: 1%;
+    font-family: math;
+    text-decoration: #964B00 underline;
+}
+a.Refreshbutt button:hover{
+	background: #f25f30;
+	color: white;
+	transition: 0.5s;
+	border-radius: 25px;
+}
+div.shiftmanagementpt2 button{
+	    background: #964B00;
+    color: #fff;
+    border-radius: 150px;
+    border: none;
+}
+div.shiftmanagementpt2 button:hover{
+	background: #f25f30;
+	color: white;
+	transition: 0.5s;
+	border-radius: 25px;
+}
+a.DevButt button{
+	    background: #964B00;
+    color: #fff;
+    font-family: math;
+    border: none;
+    border-radius: 150px;
+    float: right;
+    padding: 10px 20px;
+}
+
+table input[type="text"],
+table input[type="email"],
+table input[type="number"] {
+    width: 100%;
+    max-width: 100%; /* Ensures input does not exceed cell width */
+    box-sizing: border-box; /* Includes padding and border in width calculation */
+    margin: 0;
+    padding: 4px;
+    border: 1px solid #964B00; /* Optional: Adjusts border size and color */
+}
+table td {
+    padding: 4px; /* Adjust as needed */
+    overflow: hidden; /* Prevents content from overflowing the cell */
+    white-space: nowrap; /* Keeps content on a single line; remove if you want text wrapping */
+    text-overflow: ellipsis; /* Adds an ellipsis if the text overflows the cell width */
+}
+
+table {
+    table-layout: auto; /* or auto */
+    width: 90%; /* Adjust as needed */
+    max-width: 100%; /* Ensures table does not exceed its container */
+}
+div.schedulestable{
+	width: 47%;
+    overflow-x: auto;
+    height: 73%;
+}
+label.Update{
+	    text-shadow: #F13 1px 0 10px;
+    color: #964B00;
+    font-family: math;
+        font-size: 10px;
+}
+label.Update1{
+text-shadow: #F13 1px 0 10px;
+    color: #964B00;
+    font-family: math;
+    font-size: 10px;
+}
+label.price{
+	margin-left: 166px;
+	text-decoration: underline;
+    color: #964B00;
+    font-family: math;
+    font-size: 25px;
+}
+label.catID{
+	margin-left: 127px;
+	text-decoration: underline;
+    color: #964B00;
+    font-family: math;
+    font-size: 25px;
+}
+h2.CNP{
+	padding-top: 61px;
+}
